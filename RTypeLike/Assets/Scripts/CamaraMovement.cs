@@ -20,9 +20,9 @@ public class CamaraMovement : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 
-        Vector3 velocity = new Vector3(1f, 0f, 0f);
+        Vector3 velocity = new Vector3(speed, 0f, 0f);
 
-        transform.position = transform.position + velocity * speed * Time.deltaTime;
+        transform.position = transform.position + velocity * Time.deltaTime;
 
     }
 }
