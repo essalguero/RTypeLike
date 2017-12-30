@@ -233,7 +233,9 @@
   <ItemGroup>
     <Compile Include="Assets\omega_fighter_01\script\MouseLook.cs" />
     <Compile Include="Assets\Scripts\BackgroundMovement.cs" />
+    <Compile Include="Assets\Scripts\BoltMover.cs" />
     <Compile Include="Assets\Scripts\CamaraMovement.cs" />
+    <Compile Include="Assets\Scripts\DestroyByContact.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
